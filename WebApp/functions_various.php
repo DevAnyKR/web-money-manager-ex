@@ -29,7 +29,7 @@ class various
             fwrite($fileopen, "\n");
 
             foreach ($ParameterArray as $key => $value)
-                {fwrite($fileopen, "\{$$key} = \"{$value}\";\n");}
+                {fwrite($fileopen, "\${$key} = \"{$value}\";\n");}
 
             fclose($fileopen);
 
