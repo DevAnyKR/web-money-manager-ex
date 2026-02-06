@@ -9,8 +9,8 @@ When you start up the desktop version of Money Manager EX, it downloads all tran
 
 ## Server-side requirements
 
- * Webserver with PHP 5.4 or higher (tested on Apache, IIS and nginx)
- * PDO_SQLite extension (enabled by default on PHP 5.2 or higher)
+ * Webserver with PHP 8.2 or higher (tested on Apache 2.4, PHP 8.4)
+ * PDO_SQLite extension (enabled by default on PHP 8.2 or higher)
  * Full rights on the WebApp subfolder
 
 ## Client-side requirements
@@ -28,10 +28,9 @@ If you know what you are doing, you can install a webserver on your PC. After th
 
 ### Traditional Way
  1. Unzip the latest version in a folder on your webserver or upload files through FTP.
- 2. Rename `htaccess.txt` to `.htaccess` (on Windows type `.htaccess.` or use the Command Prompt and &quot;rename&quot; command).
- 3. Enable PDO_SQLite if disabled.
- 4. Open your browser to the folder URL.
- 5. Fill in a username and password and review the settings.
+ 2. Enable PDO_SQLite if disabled.
+ 3. Open your browser to the folder URL.
+ 4. Fill in a username and password and review the settings.
 
 ### Docker Way 
 
