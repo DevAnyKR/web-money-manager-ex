@@ -7,24 +7,20 @@ Options All -Indexes
 
 # htaccess file block
 <Files .htaccess>
-order allow,deny
-deny from all
+Require all denied
 </Files>
 
 # Protect file configuration_user.php
 <files configuration_user.php>
-order allow,deny
-deny from all
+Require all denied
 </files>
 
 # Protect file configuration_system.php
 <files configuration_system.php>
-order allow,deny
-deny from all
+Require all denied
 </files>
 
 # Protect file MMEX_New_Transaction.db
 <files MMEX_New_Transaction.db>
-order allow,deny
-deny from all
+Require all denied
 </files>
